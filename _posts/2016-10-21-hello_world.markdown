@@ -15,14 +15,10 @@ header-img: "img/heading_img/flatiron_sepia_shutterstock_85893031 copy.jpg"
 <p> Please check out the various projects I've posted and feel free to contact me with comments, questions or issues. I hope you'll see my analyses grow increasingly sophisticated as time goes on and I learn more!
 </p>
 
-<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+<blockquote>I am always doing that which I cannot do, in order that I may learn how to do it. -Pablo Picasso </blockquote>
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/heading_img/Girl_with_a_Mandolin_(Fanny_Tellier).jpg" alt="Girl with a Mandolin, 1910">
 </a>
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-
-
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+<span class="caption text-muted">Girl with a Mandolin, Pablo Picasso 1910</span>
