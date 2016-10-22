@@ -4,11 +4,11 @@ header-img: img/shutterstock_479051830_small.jpg
 email: kristensu@gmail.com
 copyright_name: Kristen Su
 description: "A rollercoaster ride through data science"
-baseurl: ""
-url: ""
-twitter_username:
+baseurl: "/netsirk17.github.io"
+url: "http://yourdomain.com"
+#twitter_username:
 github_username:  netsirk17
-facebook_username:
+#facebook_username:
 email_username:  kristensu@gmail.com
 
 # Google Analytics
