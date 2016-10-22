@@ -4,7 +4,7 @@ title:      "Hello world!"
 subtitle:   "Introducing my data blog"
 date:       2016-10-21 12:00:00
 author:     "Kristen Su"
-header-img: "img/post-bg-06.jpg"
+header-img: "img/heading_img/flatiron_sepia_shutterstock_85893031.jpg"
 ---
 
 <h2 class="pageTitle"> Hello world! </h2>
