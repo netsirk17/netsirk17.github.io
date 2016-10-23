@@ -29,7 +29,6 @@ header-img: "img/Billboard-Spotify-logo.jpg"
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-2/bb_raw.png">
     </a>
-  <span class="Billboard raw data"</span>
   <p>Yes it's a python dataframe! But no it's not pretty. The data contains:
     <ul>
       <li>317 rows denoting all of the songs that were in the Top 100 chart at some point in 2000</li>
@@ -57,10 +56,11 @@ header-img: "img/Billboard-Spotify-logo.jpg"
 
 <div>
 <h2 class="section-heading">An interesting observation and data issues</h2>
+  <h5> Songs that reached #1 </h5>
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-2/bb_top.png">
   </a>
-  <p>A quick pivot to look at all the songs that topped the charts in 2000 shows that rock as a genre dominated the #1 slot. But what? Destiny's Child is **NOT** rock. And N'Sync? In their own words, "This must be pop." Seriously, their album cover is just them and the word pop!
+  <p>A quick pivot to look at all the songs that topped the charts in 2000 shows that rock as a genre dominated the #1 slot. But what? Destiny's Child is <b>NOT</b> rock. And N'Sync? In their own words, "This must be pop." Seriously, their album cover is just them and the word pop!
   </p>
     <div align="center">
     <a href="#">
