@@ -39,6 +39,7 @@ header-img: "img/project-2/billboard3.png"
     <ol>
       <li>Converting asterisks (denoting missing values) from weekly rankings columns to numpy nan's (thanks numpy!)</li>
       <li>Dropping weekly ranking columns that contained only null values</li>
+      <li>Reformatting and standardizing time and date</li>
       <li>Converting time and dates to well ... time and dates with pandas (to_timedelta, to_datetime)</li>
       <li>Cleaning up column names</li>
       <li>Consolidating overlapping genre names (e.g. Rock'n'Roll and Rock merged into Rock)</li>
@@ -55,7 +56,8 @@ header-img: "img/project-2/billboard3.png"
 
 <div>
 <h2 class="section-heading">An interesting observation and data issues</h2>
-  <h4> Songs that reached #1 </h4>
+  <p> </p>
+  <h3> Songs that reached #1 </h3>
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-2/bb_top.png">
   </a>
@@ -66,6 +68,8 @@ header-img: "img/project-2/billboard3.png"
       <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Pop_single_cover.jpg">
     </a>
     </div>
-
+  <h3> So we have an issue </h3>
+  <p> Not a surprise that there are problems with the data.  
+  </p>
 
 </div>
