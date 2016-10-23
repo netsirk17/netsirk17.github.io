@@ -4,7 +4,7 @@ title:      "Billboard Top Hits"
 subtitle:   "Exploratory analysis of the top songs from 2000"
 date:       2016-10-05 12:00:00
 author:     "Kristen Su"
-header-img: "img/project-2/Billboard.jpg"
+header-img: "img/project-2/billboard.jpg"
 ---
 
 <h2 class="pageTitle"> Billboard Hot 100 Analysis </h2>
