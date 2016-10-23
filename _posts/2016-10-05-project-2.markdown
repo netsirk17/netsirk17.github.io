@@ -56,7 +56,7 @@ header-img: "img/project-2/Billboard.jpg"
 
 <div>
 <h2 class="section-heading">An interesting observation and data issues</h2>
-  <h5> Songs that reached #1 </h5>
+  <h4> Songs that reached #1 </h4>
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-2/bb_top.png">
   </a>
