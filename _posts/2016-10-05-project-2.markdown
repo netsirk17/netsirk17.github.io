@@ -1,0 +1,72 @@
+---
+layout:     post
+title:      "Billboard Top Hits"
+subtitle:   "Exploratory analysis of the top songs from 2000"
+date:       2016-10-05 12:00:00
+author:     "Kristen Su"
+header-img: "img/Billboard-Spotify-logo.jpg"
+---
+
+<h2 class="pageTitle"> Billboard Hot 100 Analysis </h2>
+
+<div>
+<h2 class="section-heading">Executive Summary</h2>
+  <p><b>Dataset: Billboard Hot 100 Chart from 2000</b></p>
+  <p> The goal of this project was to do some exploratory data analysis (EDA) on the top hits from the year 2000. It isn't my first "dirty" dataset, but this is my first attempt at cleaning and preparing data. As such, much of this post will describe the steps I took to clean the data.
+  </p>
+  <p>Project Details:
+  <ol>
+    <li> Describe data set </li>
+    <li> Acquire, parse and mine the data </li>
+    <li> Visualize the data </li>
+    <li> Evaluate and refine findings </li>
+  </ol>
+</div>
+
+<div>
+<h2 class="section-heading">Let the cleaning begin!</h2>
+  <p> Let's take a look at the raw data: </p>
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-2/bb_raw.png">
+    </a>
+  <span class="Billboard raw data"</span>
+  <p>Yes it's a python dataframe! But no it's not pretty. The data contains:
+    <ul>
+      <li>317 rows denoting all of the songs that were in the Top 100 chart at some point in 2000</li>
+      <li>83 columns including 76 columns containing weekly rankings </li>
+      <li>Time, date and ranking values in non-numerical datatypes </li>
+    </ul>
+  </p>
+  <p>I cleaned and parsed the data and got it ready for analysis by:
+    <ol>
+      <li>Converting asterisks (denoting missing values) from weekly rankings columns to numpy nan's (thanks numpy!)</li>
+      <li>Dropping weekly ranking columns that contained only null values</li>
+      <li>Converting time and dates to well ... time and dates with pandas (to_timedelta, to_datetime)</li>
+      <li>Cleaning up column names</li>
+      <li>Consolidating overlapping genre names (e.g. Rock'n'Roll and Rock merged into Rock)</li>
+      <li>Creating new columns with useful information</li>
+        <ul>
+          <li>Weeks on Chart: Shows total time a song was on the chart</li>
+          <li>Top Chart Rank: Shows the top rank achieved by each song (sadly not all songs reach #1)</li>
+          <li>Weeks to Peak Rank: Shows how long it took a song to achieve its peak rank</li>
+          <li>Month Entered: Shows in which month a song entered the chart</li>
+        </ul>
+    </ol>
+  </p>
+  </div>
+
+<div>
+<h2 class="section-heading">An interesting observation and data issues</h2>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-2/bb_top.png">
+  </a>
+  <p>A quick pivot to look at all the songs that topped the charts in 2000 shows that rock as a genre dominated the #1 slot. But what? Destiny's Child is **NOT** rock. And N'Sync? In their own words, "This must be pop." Seriously, their album cover is just them and the word pop!
+  </p>
+    <div align="center">
+    <a href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Pop_single_cover.jpg">
+    </a>
+    </div>
+
+
+</div>
