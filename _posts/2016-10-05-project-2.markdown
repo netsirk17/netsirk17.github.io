@@ -72,17 +72,18 @@ header-img: "img/project-2/billboard3.png"
     <p> </p>
     <p> Not a surprise that there are problems with the data. Here are two assumptions about the data:
     </p>
-    <p><b>Assumption 1: The data is accurate</b></p>
+    <p><b>Assumption 1: The data is accurate</b>
       A quick scan through the data showed that the data is flawed. Take genre. We know that:
       <ol>
         <li> Genres overlap </li>
         <li> Genres are mislabeled </li>
       </ol>
-    <b>Assumption 2: The data is comprehensive</b>
-      <ol>
-        <li> Genres overlap </li>
-        <li> Genres are mislabeled </li>
-      </ol>
-    </p>
+    <b>Assumption 2: The data is comprehensive</b></p>
+    <p> Billboard used sales and radio play to determine its weekly rankings. But 2000 was the heyday of Napster. Digital downloads and filesharing were beginning to disrupt the music industry. Billboard was unable at this time to capture the new ways people were consuming music. <br>
+    Billboard began tracking digital track sales in 2005 and digital streaming 2007. </p>
+    <p>For more information:<br>
+<a href="https://en.wikipedia.org/wiki/Billboard_Hot_100)">Billboard Hot 100 Chart Wikipedia</a><br>
+<a href="http://www.billboard.com/articles/news/1050326/billboard-hot-100-to-include-digital-streams))">Billboard To Include Digital Streams</a><br>
+
 
 </div>
