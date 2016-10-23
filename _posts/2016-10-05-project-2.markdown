@@ -61,7 +61,7 @@ header-img: "img/project-2/billboard3.png"
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-2/bb_top.png">
   </a>
-  <p>A quick pivot to look at all the songs that topped the charts in 2000 shows that rock as a genre dominated the #1 slot. But what? Destiny's Child is <b>NOT</b> rock. And N'Sync? In their own words, "This must be pop." Seriously, their album cover is just them and the word pop!
+  <p>A quick pivot to look at all the songs that topped the charts in 2000 shows that rock as a genre dominated the #1 slot. But what? Destiny's Child is <b>NOT</b> rock. And N'Sync? In their own words, "This must be pop." Seriously, their album cover is just them and the word <b>pop</b>!
   </p>
     <div align="center">
     <a href="#">
@@ -69,7 +69,20 @@ header-img: "img/project-2/billboard3.png"
     </a>
     </div>
   <h3> So we have an issue </h3>
-  <p> Not a surprise that there are problems with the data.  
-  </p>
+    <p> </p>
+    <p> Not a surprise that there are problems with the data. Here are two assumptions about the data:
+    </p>
+    <p><b>Assumption 1: The data is accurate</b></p>
+      A quick scan through the data showed that the data is flawed. Take genre. We know that:
+      <ol>
+        <li> Genres overlap </li>
+        <li> Genres are mislabeled </li>
+      </ol>
+    <b>Assumption 2: The data is comprehensive</b>
+      <ol>
+        <li> Genres overlap </li>
+        <li> Genres are mislabeled </li>
+      </ol>
+    </p>
 
 </div>
