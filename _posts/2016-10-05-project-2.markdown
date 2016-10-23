@@ -4,7 +4,7 @@ title:      "Billboard Top Hits"
 subtitle:   "Exploratory analysis of the top songs from 2000"
 date:       2016-10-05 12:00:00
 author:     "Kristen Su"
-header-img: "img/project-2/billboard.jpg"
+header-img: "img/project-2/billboard2.jpg"
 ---
 
 <h2 class="pageTitle"> Billboard Hot 100 Analysis </h2>
@@ -21,7 +21,6 @@ header-img: "img/project-2/billboard.jpg"
     <li> Visualize the data </li>
     <li> Evaluate and refine findings </li>
   </ol>
-</div>
 
 <div>
 <h2 class="section-heading">Let the cleaning begin!</h2>
