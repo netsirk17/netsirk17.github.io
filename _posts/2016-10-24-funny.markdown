@@ -10,6 +10,7 @@ header-img: "img/heading_img/orangutans_laughing.jpg"
 <h2 class="pageTitle">Yes data science jokes are funny!</h2>
 
 <p> Depending on your sense of humor of course :)
+</p>
 
 <a href="#"
   <img src="{{ site.baseurl }}/img/funny/correlation.jpg"</a>
