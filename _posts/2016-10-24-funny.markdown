@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "Hilarity in Data Science"
+subtitle:   "Because you need to find the humor in things"
+date:       2016-10-24 12:00:00
+author:     "Kristen Su"
+header-img: "img/heading_img/orangutans_laughing.jpg"
+---
+
+<h2 class="pageTitle">Yes data science jokes are funny!</h2>
+
+<p> Depending on your sense of humor of course :)
+
+<a href="#"
+  <img src="{{ site.baseurl }}/img/funny/correlation.jpg"</a>

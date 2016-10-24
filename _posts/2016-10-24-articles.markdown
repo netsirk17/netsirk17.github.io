@@ -13,7 +13,6 @@ header-img: "img/heading_img/data_science4.jpg"
   <ul>
     <li>General articles on data science for the uninitiated </li>
     <li>Technical resources (mostly as a reference for myself) </li>
-    <li>Funny and interesting things that I like </li>
     <li>Book recommendations </li>
   </ul>
 </p>
@@ -21,16 +20,23 @@ header-img: "img/heading_img/data_science4.jpg"
 <p> As always, feel free to  <a href='/contact'>contact me</a> with comments, questions, recommendations or suggestions. Especially if you know some good data science jokes!
 </p>
 
-<h2 class="section-heading">Data Science Articles</h2>
-<p>
+<p> This is a starter list and I will continue to add to it over time.
 </p>
 
-<h2 class="section-heading">Funny and Interesting Stuff</h2>
-<p>
+<h2 class="section-heading">Data Science Articles</h2>
+<p> </p>
+<a href="http://blogs.wsj.com/cio/2014/05/02/why-do-we-need-data-science-when-weve-had-statistics-for-centuries/">Why Do We Need Data Science When We’ve Had Statistics for Centuries?</a>
+<p> By Irving Wladawsky-Berger <br>
+Wall Street Journal <a href="http://www.wsj.com/news/cio-journal">CIO Journal</a>
 </p>
+<p>
+</p> And oldie but a goodie. Really breaks down the what and how of data science. In short, it’s all about the difference between explaining and predicting.
+<blockquote>Data analysis has been generally used as a way of explaining some phenomenon by extracting interesting patterns from individual data sets with well-formulated queries. Data science, on the other hand, aims to discover and extract actionable knowledge from the data, that is, knowledge that can be used to make decisions and predictions, not just to explain what’s going on.
+</blockquote>
+
 
 <h2 class="section-heading">Technical Resources</h2>
-<p>
+<p> Coming soon!
 </p>
 
 <h2 class="section-heading">Books</h2>
