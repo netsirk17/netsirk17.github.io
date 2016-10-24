@@ -4,7 +4,7 @@ title:      "Favorite data science articles"
 subtitle:   "Some technical, some funny, some just darn good reporting"
 date:       2016-10-24 12:00:00
 author:     "Kristen Su"
-header-img: "img/heading_img/data_science4.jpg.jpg"
+header-img: "img/heading_img/data_science4.jpg"
 ---
 
 <h2 class="pageTitle">What is data science and why should I care?</h2>
@@ -21,19 +21,19 @@ header-img: "img/heading_img/data_science4.jpg.jpg"
 <p> As always, feel free to  <a href='/contact'>contact me</a> with comments, questions, recommendations or suggestions. Especially if you know some good data science jokes!
 </p>
 
-h2 class="section-heading">Data Science Articles</h2>
+<h2 class="section-heading">Data Science Articles</h2>
 <p>
 </p>
 
-h2 class="section-heading">Funny and Interesting Stuff</h2>
+<h2 class="section-heading">Funny and Interesting Stuff</h2>
 <p>
 </p>
 
-h2 class="section-heading">Technical Resources</h2>
+<h2 class="section-heading">Technical Resources</h2>
 <p>
 </p>
 
-h2 class="section-heading">Books</h2>
+<h2 class="section-heading">Books</h2>
 <p><a href="https://www.amazon.com/Data-ism-Revolution-Transforming-Decision-Everything/dp/0062226819">
   <img src="{{ site.baseurl }}/img/heading_img/dataism.jpg" alt="Dataism by Steve Lohr">
 </a>
