@@ -13,4 +13,5 @@ header-img: "img/heading_img/orangutans_laughing.jpg"
 </p>
 
 <a href="#">
-  <img src="{{ site.baseurl }}/img/funny/correlation.jpg"</a>
+  <img src="{{ site.baseurl }}/img/funny/correlation.jpg">
+</a>
