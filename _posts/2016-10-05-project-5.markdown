@@ -180,6 +180,7 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 <h3> Cross-validated Logistic Regression Model </h3>
 <p> 
 </p>
+
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/LRCV_cm.png"></a>
@@ -205,9 +206,22 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 <h3> Model Metrics Table</h3>
 <p> 
 </p>
-<p> See below for all of the model metrics.
-</p>
+
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/model_df.png"></a>
 </div>
+
+<h3> Final Thoughts</h3>
+<p>
+</p>
+<p>All models were built using the train, test, split method. One drawback to this method is that it really limits the available test data as this database had less than 900 rows. The final test data sets contained approximately 300 rows, which may explain some of the angularity of the ROC and PRC curves. 
+</p>
+<p>Age bins (child, adult, elderly) and title were a good proxy for age and better for the model than actual age. About 20% of age values were missing and I filled them in by deriving a median group age value from passenger titles. These derived values may not be the most accurate reflection of real age distribution on the ship.
+</p>
+<p>Fare was eliminated because that information was better captured in passenger class (first, second, third). The fares varied widely even within the same passenger class, which may mean there were other pricing factors involved and it would've been noise to our model.
+</p>
+<p>Fare was eliminated because that information was better captured in passenger class (first, second, third). The fares varied widely even within the same passenger class, which may mean there were other pricing factors involved and it would've been noise to our model.
+</p>
+<p>Sibsp (number of siblings/spouse) was kept while parch (number of parents/children)was excluded because over several iterations of the logistic regression, parch did not have a significant effect (very small coefficients) to survival while sibsp had a justifiably large effect. It seems that in the parch parameter, being a parent who has a child (or children), and being a child who has parent(s), would cancel out each other's effect on survival probability in the model
+</p>
