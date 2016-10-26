@@ -79,7 +79,7 @@ header-img: "img/project-5/titanic-sinking.jpg"
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/port_regressions.png"></a>
-
+</div>
 
 <h2 class="section-heading">What Do the Models Say?</h2>
 <p></p>
@@ -88,10 +88,7 @@ header-img: "img/project-5/titanic-sinking.jpg"
 <p>Different classification models were trained and tested on split sample data. The standard 67% was used for model training and 33% for model testing. The features of each of the models are:
 <ul>
   <li>sex</li>
-  <li>age</li>
-  <li>normalized fare</li>
   <li>normalized number of siblings and parents on the ship</li>
-  <li>normalized number of parents and children on the ship</li>
   <li><i>all normalization done with StandardScalar in sklearn's preprocessing module </i></li>
   <li>dummy variables:</li>
     <ul>
@@ -102,7 +99,7 @@ header-img: "img/project-5/titanic-sinking.jpg"
           </li>
         </ul>
       <li>port of embarkation</li>
-      <li>cabin class</li>
+      <li>passenger class</li>
       <li>age groups</li>
     </ul>
 
@@ -168,3 +165,6 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 <h2 class="section-heading">Back to the Models</h2>
 <p></p>
 <p></p>
+<h3> Features </h3>
+<p> 
+</p>
