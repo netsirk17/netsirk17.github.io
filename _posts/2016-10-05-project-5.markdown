@@ -130,7 +130,7 @@ Recall = True Positives / (True Positives + False Negatives)<br>
 FPR = False Positives / (True Positives + False Positives) <br>
 </p>
 
-<p><b>Accuracy</b>: Also called the F1 score, is the balance between precision and recall. It's the harmonic mean between precision (positive predictive value) and recall (sensitivity) <br>
+<p><b>Accuracy</b>: Also called the F1 score, accuracy for our purposes is the balance between precision and recall. It's the harmonic mean between precision (positive predictive value) and recall (sensitivity) <br>
 Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 </p>
 
