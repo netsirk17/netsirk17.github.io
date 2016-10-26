@@ -84,7 +84,7 @@ header-img: "img/project-5/titanic.jpg"
       <li>cabin class</li>
       <li>age groups</li>
     </ul>
-</p>
+
 <p>For each model, the following metrics were calculated:
   <ul>
     <li>precision</li>
@@ -105,6 +105,7 @@ header-img: "img/project-5/titanic.jpg"
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/fptable.png"></a>
 </div>
+Table source <a href= "https://social.msdn.microsoft.com/profile/Andreas+de+Ruiter+%28Microsoft%29">here</a>.
 
 <p><b>Precision</b>: Measures how many passengers actually survived compared to how many were predicted to survive. <br>
 Precision = True Positives / (True Positives + False Positives) <br>
@@ -119,5 +120,5 @@ FPR = False Positives / (True Positives + False Positives) <br>
 </p>
 
 <p><b>Accuracy</b>: Also called the F1 score, is the balance between precision and recall. It's the harmonic mean between precision (positive predictive value) and recall (sensitivity) <br>
-Accuracy = 2 x (Recall x Precision) / (Recall + Precision)
+Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 </p>
