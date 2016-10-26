@@ -70,6 +70,12 @@ header-img: "img/project-5/titanic-sinking.jpg"
       <img src="{{ site.baseurl }}/img/project-5/giphy.gif"></a>
 </div>
 <p></p>
+<p>One last point of note, which is surprising, is the difference in survival rates by port of embarkation. Southampton was by far the most popular port for departure, so it makes sense there are more people who died. However the chances of survival are lower than the other ports. It may be that more people that got on at Southampton that had third class cabins. The below regression chart also shows a dense clutter of people who would be grouped in the adult bin and we know that adults had the lowest survival rates. So a disproportionate number of adults in the third class may have contributed to Southampton's low survival rates. <br>
+</p>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-5/port_regressions.png"></a>
+
 
 <h2 class="section-heading">What Do the Models Say?</h2>
 <p></p>
