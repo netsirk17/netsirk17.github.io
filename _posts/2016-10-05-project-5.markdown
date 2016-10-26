@@ -11,17 +11,21 @@ header-img: "img/project-5/titanic-sinking.jpg"
 <h2 class="section-heading">Executive Summary</h2>
 
   <p><b> Dataset: <a href="https://www.kaggle.com/c/titanic/data"> Titanic Database</a> </b></p>
-  <p> The goal of the project is to predict the chances of any one passenger surviving the Titanic sinking of 1912, using various classification models to come to the best predictions. The best model turned out to be [  ] with [  ]% accuracy, [  ]% precision and a [  ]% false positive rate.
+  <p> The goal of the project was to predict the chances of any one passenger surviving the Titanic sinking of 1912, using various classification models to come to the best predictions. The best model turned out to be a cross-validated logistic regression model  with 82.6% accuracy, 80.0% precision and a 12.9% false positive rate. This model was built with LogisticRegressionCV from scikitlearn's linear_model module. 
   </p>
 
   <p>Project Details:
   <ol>
     <li> Acquire data from AWL PostgreSQL database </li>
-    <li> Create classification models to predict likelihood of survival </li>
+    <li> Create classification models to predict likelihood of survival. I built the following models: </li>
       <ul>
         <li>Logistic Regression</li>
+        <li>Cross-validated Logistic Regression</li>
+        <li>GridSearch Logistic Regression</li>
         <li>kNN Model</li>
-        <li>Gridsearch to find optimal parameters for both models</li>
+        <li>GridSearch kNN Model</li>
+        <li>GridSearch SVM Model</li>
+        <li>GridSearch Decision Trees Model</li>
       </ul>
     <li> Examine models through confusion matrices and ROC curves </li>
   </ol>
