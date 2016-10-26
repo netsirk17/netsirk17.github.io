@@ -58,9 +58,66 @@ header-img: "img/project-5/titanic.jpg"
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/factorplot1.png"></a>
 </div>
-<p>On the other hand, your chances of survival look much better (relative to other men) if you were a high-roller in 1st class.
+<p>On the other hand, your chances of survival look much better (relative to other men) if you were a high-roller in 1st class. Sorry Jack, you're dead. Ok this is the last reference to <i>Titanic.</i>
 </p>
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/giphy.gif"></a>
 </div>
+<p></p>
+
+<h2 class="section-heading">What Do the Models Say?</h2>
+<p></p>
+<p></p>
+
+<p>Different classification models were trained and tested on split sample data. The standard 33% was used for modeling training and 67% for model testing. The features of each of the models are:
+<ul>
+  <li>sex</li>
+  <li>age</li>
+  <li>normalized fare</li>
+  <li>normalized number of siblings and parents on the ship</li>
+  <li>normalized number of parents and children on the ship</li>
+  <li>dummy variables:</li>
+    <ul>
+      <li>title (Mr., Mrs., etc. My favorite being Jonkheer)</li>
+      <li>port of embarkation</li>
+      <li>cabin class</li>
+      <li>age groups</li>
+    </ul>
+</p>
+<p>For each model, the following metrics were calculated:
+  <ul>
+    <li>precision</li>
+    <li>recall</li>
+    <li>accuracy</li>
+    <li>false positive rate</li>
+    <li>area under ROC curve (AUC)</li>
+    <li>area under precision-recall curve</li>
+    </ul>
+</p>
+
+<h3>Clarifying some terms</h3>
+<p></p>
+<p> If you're a data science wiz, go ahead and skip this section. If not, I'll do my best to convey what these terms mean as it relates to our data. The table below will help you visualize what I describe.
+</p>
+
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-5/fptable.png"></a>
+</div>
+
+<p><b>Precision</b>: Measures how many passengers actually survived compared to how many were predicted to survive. <br>
+Precision = True Positives / (True Positives + False Positives) <br>
+</p>
+
+<p><b>Recall</b>: Measures how many passengers were predicted to survive out of all the passengers that actually survived. <br>
+Recall = True Positives / (True Positives + False Negatives)<br>
+</p>
+
+<p><b>False Positive Rate</b>: Simply put, it's the inverse of precision. <br>
+FPR = False Positives / (True Positives + False Positives) <br>
+</p>
+
+<p><b>Accuracy</b>: Also called the F1 score, is the balance between precision and recall. It's the harmonic mean between precision (positive predictive value) and recall (sensitivity) <br>
+Accuracy = 2 x (Recall x Precision) / (Recall + Precision)
+</p>
