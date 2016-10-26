@@ -75,7 +75,7 @@ header-img: "img/project-5/titanic-sinking.jpg"
 <p></p>
 <p></p>
 
-<p>Different classification models were trained and tested on split sample data. The standard 33% was used for modeling training and 67% for model testing. The features of each of the models are:
+<p>Different classification models were trained and tested on split sample data. The standard 67% was used for model training and 33% for model testing. The features of each of the models are:
 <ul>
   <li>sex</li>
   <li>age</li>
