@@ -102,8 +102,8 @@ header-img: "img/project-5/titanic-sinking.jpg"
     <li>recall</li>
     <li>accuracy</li>
     <li>false positive rate</li>
-    <li>area under ROC curve (AUC)</li>
-    <li>area under precision-recall curve</li>
+    <li>area under ROC curve (AUC ROC)</li>
+    <li>area under precision-recall curve (AUC PRC)</li>
     </ul>
 </p>
 
