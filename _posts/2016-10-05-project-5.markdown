@@ -151,13 +151,13 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 
 <p> Just to make sense of our model, let's take a look at a few coefficents from the logistic regression.
 <ul>
-  <li><b>sex</b>: -1.14 makes sense as we set male to 1 and female to 0 and clearly the data shows that if you are a male, your chances of survival are pretty slim. This is also born out by <b>title_Mr</b> with a coefficient of -1.33. </li>
+  <li><b>sex</b>: -1.50 makes sense as we set male to 1 and female to 0 and clearly the data shows that if you are a male, your chances of survival are pretty slim. This is also born out by <b>title_Mr</b> with a coefficient of -1.14. </li>
 
-  <li><b> male other </b>: -0.88 shows these gents sacrified for the good of others. Passengers in this category (although few in number) were older men with more distinguished titles than Mr., such as Colonel, Captain or Don. Just guessing from their titles, I wonder if it was a greater sense of duty these men felt or they were just older and didn't make it to the lifeboats in time.</li>
+  <li><b> male other </b>: -1.25 shows these gents sacrified for the good of others. Passengers in this category (although few in number) were older men with more distinguished titles than Mr., such as Colonel, Captain or Don. Just guessing from their titles, I wonder if it was a greater sense of duty these men felt or they were just older and didn't make it to the lifeboats in time.</li>
   
-  <li><b> port_S </b>: 0.31 coefficient is about ten times lower than the other ports. This may indicate that perhaps more people with third class cabins boarded at Southampton.</li>
+  <li><b> port_S </b>: -0.11 coefficient may indicate, as mentioned above, that perhaps more adults with third class cabins boarded at Southampton.</li>
   
-  <li><b> bin_child </b>: 0.69 is lower than I would like but maybe this is due more to children and babies being physically more vulnerable and weak (therefore unable to survive even if they made it on a lifeboat) than to adults taking their place on the lifeboats. </li>
+  <li><b> bin_child </b>: 0.90 is lower than I would like but maybe this is due more to children and babies being physically weaker (therefore unable to survive even if they made it on a lifeboat) than to adults taking their place on the lifeboats. </li>
 </ul>
 <p> All things considered, the coefficients are in line with my expectations.
 </p>
@@ -165,6 +165,15 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 <h2 class="section-heading">Back to the Models</h2>
 <p></p>
 <p></p>
-<h3> Features </h3>
+<h3> Cross-validated Logistic Regression Model </h3>
 <p> 
 </p>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-5/LRCV_cm.png"></a>
+</div>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-5/LRCV_curves.png"></a>
+</div>
+
