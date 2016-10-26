@@ -180,7 +180,8 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 <h3> Cross-validated Logistic Regression Model </h3>
 <p> 
 </p>
-
+<p>Built with scikitlearn's logisticregressionCV, this model performed the best all around with the highest accuracy, recall and ROC AUC scores. In general, I like the LogRegCV model for survivor prediction because I would rather have more false predictions for surviors and have people looking for them than to predict too few survivors and some people die waiting for help! 
+</p>
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/LRCV_cm.png"></a>
@@ -192,6 +193,8 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 
 <h3> GridSearch SVM Model</h3>
 <p> 
+</p>
+<p>Built with optimized parameters on SVC (Support Vector Machines), this model had the lowest false positive rate (5.7%) and the highest precision (88.4%). The SVM model would be best if the client wanted a more conservative approach as this model favors predictive accuracy. However, this seems better for corporate purposes than rescue missions!
 </p>
 <div align = 'center'>  
     <a href="#">
@@ -221,7 +224,7 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 </p>
 <p>Fare was eliminated because that information was better captured in passenger class (first, second, third). The fares varied widely even within the same passenger class, which may mean there were other pricing factors involved and it would've been noise to our model.
 </p>
-<p>Fare was eliminated because that information was better captured in passenger class (first, second, third). The fares varied widely even within the same passenger class, which may mean there were other pricing factors involved and it would've been noise to our model.
-</p>
 <p>Sibsp (number of siblings/spouse) was kept while parch (number of parents/children)was excluded because over several iterations of the logistic regression, parch did not have a significant effect (very small coefficients) to survival while sibsp had a justifiably large effect. It seems that in the parch parameter, being a parent who has a child (or children), and being a child who has parent(s), would cancel out each other's effect on survival probability in the model
 </p>
+<p>Cabin would be an interesting parameter to look at but there were too many unique values of cabin (not passenger class as in first, second, third) to be a meaninful predictor in a small dataset. However cabins specify not just the class of a passenger but where on the ship the passenger is located. People closer to the lifeboats would have had a better chance of survival.
+</p>  
