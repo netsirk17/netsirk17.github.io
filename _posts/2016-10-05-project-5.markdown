@@ -34,7 +34,7 @@ header-img: "img/project-5/titanic.jpg"
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/womenchildren.jpg"></a>
 </div>
-
+<p></p>
 <p> Remember that line from James Cameron's 1997 classic film <i>Titanic</i>? A chivalrous sentiment but apparently not maritime law in 1912. However, looking over the data it appears that most men honored the sentiment.
 </p>
 <div align = 'center'>  
@@ -48,9 +48,14 @@ header-img: "img/project-5/titanic.jpg"
       <img src="{{ site.baseurl }}/img/project-5/age.png"></a>
 </div>
 <p>And looking at age groups (children are under 18, elderly over 40 and adults between 18-40), it looks like you were much more likely to die in the frigid water if you were an adult male.<br>
-On the other hand, your chances of survival look much better (relative to other men) if you were a high-roller in 1st class.
 </p>
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/factorplot1.png"></a>
+</div>
+<p>On the other hand, your chances of survival look much better (relative to other men) if you were a high-roller in 1st class.
+</p>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-5/giphy.gif"></a>
 </div>
