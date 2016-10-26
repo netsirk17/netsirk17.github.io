@@ -202,6 +202,11 @@ Accuracy = (Recall x Precision) / (Recall + Precision) x 2
 </div>
 
 
+<h3> Model Metrics Table</h3>
+<p> 
+</p>
+<p> See below for all of the model metrics.
+</p>
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/model_df.png"></a>
