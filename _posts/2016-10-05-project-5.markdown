@@ -30,14 +30,22 @@ header-img: "img/project-5/titanic.jpg"
 
 <h2 class="section-heading">Women and Children First?</h2>
 
-<div align = center>  
+<div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/womenchildren.jpg"></a>
 </div>
 
 <p> Remember that line from James Cameron's 1997 classic film <i>Titanic</i>? A chivalrous sentiment but apparently not maritime law in 1912. However, looking over the data it appears that most men honored the sentiment.
 </p>
-<div align = center>  
+<div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-5/class.png"></a>
 </div>
+<p>There were nearly twice as many men as women who boarded the ship, but nearly twice as many women that survived than men.
+</p>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-5/age.png"></a>
+</div>
+<p>And looking at age groups (children are under 18, elderly over 40 and adults between 18-40).
+</p>
