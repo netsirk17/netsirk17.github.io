@@ -4,7 +4,7 @@ title:      "Better Film Recommendations"
 subtitle:   "Identifying Key Features of Highly Rated Films on IMDB"
 date:       2016-11-02 12:00:00
 author:     "Kristen Su"
-header-img: "img/project-6/imdb3.jpg"
+header-img: "img/project-6/imdb3.jpeg"
 ---
 
 <div>
@@ -61,7 +61,7 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/netflix.jpg"></a>
 </div>
-<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>.
+<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse!
   
 
 </p>
