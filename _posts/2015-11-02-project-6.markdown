@@ -10,7 +10,7 @@ header-img: "img/project-6/blackimdb.jpg"
 <div>
 <h2 class="section-heading">Executive Summary</h2>
 
-  <p><b> Dataset: <a href="http://www.imdb.com/chart/top"> IMDB Top 250 Films of All Time </a> </b></p>
+  <p><b> Dataset: <a href="http://www.imdb.com/chart/top" target="_blank"> IMDB Top 250 Films of All Time </a> </b></p>
   <p> The goal of the project was to examine what factors contribute to movie ratings in order to predict what types of movies a person may like. I used tree-based machine learning models on the top 250 films, as rated by IMDB users, to determine importance of movie features in determining movie ratings. 
 
   Although Netflix uses
