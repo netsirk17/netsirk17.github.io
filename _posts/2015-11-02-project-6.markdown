@@ -1,0 +1,69 @@
+---
+layout:     post
+title:      "Surviving the Titanic"
+subtitle:   "Predicting Disaster Survival with Classification Models"
+date:       2016-11-02 12:00:00
+author:     "Kristen Su"
+header-img: "img/project-6/imdb.jpg"
+---
+
+<div>
+<h2 class="section-heading">Executive Summary</h2>
+
+  <p><b> Dataset: <a href="http://www.imdb.com/chart/top"> IMDB Top 250 Films of All Time </a> </b></p>
+  <p> The goal of the project was to examine what factors contribute to movie ratings in order to predict what types of movies a person may like. I used tree-based machine learning models on the top 250 films, as rated by IMDB users, to determine importance of movie features in determining movie ratings. 
+
+Netflix uses random forests and decision trees to predict what types of movies an individual user may like.
+Using unsupervised learning techniques, they are able to continually update suggestions, listings, and other features of its user interface.
+Netflix, however, hasn't focused on collecting data on the top movies of all time, and would like to add some of them to their offerings based on popularity and other factors.
+Point: Your boss isn't sure where to start on this project, so your task is to collect the data, build a random forest, and examine its feature importances to understand what factors contribute to ratings.
+
+
+  </p>
+
+  <p>Project Details:
+  <ol>
+    <li> Use OMDB API to scrape IMDB data </li>
+    <li> Webscrape additional data directly from IMDB </li>
+    <li> Create regression and classification models (mostly decision trees and random forests) to determine most important movie features in predicting user ratings </li>
+    <li>Cross validate model scores</li>
+    <li>Models used:</li>
+      <ul>
+        <li>DecisionTree</li>
+        <li>RandomForest</li>
+        <li>ExtraTrees</li>
+        <li>AdaBoost</li>
+        <li>GradientBoosting</li>
+      </ul>
+      <li>Note: Bagging and GridSearch were also used on certain models where appropriate </li>
+  </ol>
+
+  
+
+<h2 class="section-heading">Netflix</h2>
+<p><br>
+</p>
+<p>
+</p>
+
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-6/blockbuster.jpg"></a>
+</div>
+
+<p><br>
+</p>
+<p>
+</p>
+
+<p> Remember when going to Blockbuster seemed like you had an endless choice of movies? Well now we actually have nearly limitless choice with Netflix, Amazon Prime, Hulu and everything else on demand.
+</p>
+
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-6/netflix.jpg"></a>
+</div>
+<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308">"Netflix Introduces New 'Browse Endlessly' Plan"</a> 
+  
+
+</p>
