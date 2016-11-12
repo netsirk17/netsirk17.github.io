@@ -4,7 +4,7 @@ title:      "Better Film Recommendations"
 subtitle:   "Identifying Key Features of Highly Rated Films on IMDB"
 date:       2016-11-02 12:00:00
 author:     "Kristen Su"
-header-img: "img/project-6/imdblogo.png"
+header-img: "img/project-6/black.jpg"
 ---
 
 <div>
