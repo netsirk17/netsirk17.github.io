@@ -4,7 +4,7 @@ title:      "Better Film Recommendations"
 subtitle:   "Identifying Key Features of Highly Rated Films on IMDB"
 date:       2016-11-02 12:00:00
 author:     "Kristen Su"
-header-img: "img/project-6/imdb2.jpg"
+header-img: "img/project-6/imdb3.jpg"
 ---
 
 <div>
@@ -12,6 +12,8 @@ header-img: "img/project-6/imdb2.jpg"
 
   <p><b> Dataset: <a href="http://www.imdb.com/chart/top"> IMDB Top 250 Films of All Time </a> </b></p>
   <p> The goal of the project was to examine what factors contribute to movie ratings in order to predict what types of movies a person may like. I used tree-based machine learning models on the top 250 films, as rated by IMDB users, to determine importance of movie features in determining movie ratings. 
+
+  Although Netflix uses
 
 Netflix uses random forests and decision trees to predict what types of movies an individual user may like.
 Using unsupervised learning techniques, they are able to continually update suggestions, listings, and other features of its user interface.
@@ -40,10 +42,8 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
 
   
 
-<h2 class="section-heading">Netflix</h2>
+<h2 class="section-heading">Netflix and the Paradox of Choice</h2>
 <p><br>
-</p>
-<p>
 </p>
 
 <div align = 'center'>  
@@ -53,8 +53,6 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
 
 <p><br>
 </p>
-<p>
-</p>
 
 <p> Remember when going to Blockbuster seemed like you had an endless choice of movies? Well now we actually have nearly limitless choice with Netflix, Amazon Prime, Hulu and everything else on demand.
 </p>
@@ -63,7 +61,7 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/netflix.jpg"></a>
 </div>
-<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308">"Netflix Introduces New 'Browse Endlessly' Plan"</a>.
+<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>.
   
 
 </p>
