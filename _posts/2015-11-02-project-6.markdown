@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Surviving the Titanic"
-subtitle:   "Predicting Disaster Survival with Classification Models"
+title:      "Better Film Recommendations"
+subtitle:   "Identifying Key Features of Highly Rated Films on IMDB"
 date:       2016-11-02 12:00:00
 author:     "Kristen Su"
-header-img: "img/project-6/imdb.jpg"
+header-img: "img/project-6/imdb2.jpg"
 ---
 
 <div>
@@ -63,7 +63,7 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/netflix.jpg"></a>
 </div>
-<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308">"Netflix Introduces New 'Browse Endlessly' Plan"</a> 
+<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308">"Netflix Introduces New 'Browse Endlessly' Plan"</a>.
   
 
 </p>
