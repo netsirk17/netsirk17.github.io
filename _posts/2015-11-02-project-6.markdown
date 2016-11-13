@@ -12,22 +12,12 @@ header-img: "img/project-6/blackimdb.jpg"
 
   <p><b> Dataset: <a href="http://www.imdb.com/chart/top" target="_blank"> IMDB Top 250 Films of All Time </a> </b></p>
   <p> The goal of the project was to examine what factors contribute to movie ratings in order to predict what types of movies a person may like. I used tree-based machine learning models on the top 250 films as rated by IMDB users to identify movie feature importance in determining user ratings. 
-
-  Although Netflix uses
-
-Netflix uses random forests and decision trees to predict what types of movies an individual user may like.
-Using unsupervised learning techniques, they are able to continually update suggestions, listings, and other features of its user interface.
-Netflix, however, hasn't focused on collecting data on the top movies of all time, and would like to add some of them to their offerings based on popularity and other factors.
-Point: Your boss isn't sure where to start on this project, so your task is to collect the data, build a random forest, and examine its feature importances to understand what factors contribute to ratings.
-
-
   </p>
 
   <p>Project Details:
   <ol>
-    <li> Use OMDB API to scrape IMDB data </li>
-    <li> Webscrape additional data directly from IMDB </li>
-    <li> Create regression and classification models (mostly decision trees and random forests) to determine most important movie features in predicting user ratings </li>
+    <li> Webscrape top-rated films and film information on IMDB and through OMDB API </li>
+    <li> Create regression and classification models (decision trees and random forests) to determine most important movie features in predicting user ratings </li>
     <li>Cross validate model scores</li>
     <li>Models used:</li>
       <ul>
@@ -40,10 +30,10 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
       <li>Bagging and GridSearch were also used on certain models where appropriate </li>
   </ol>
 
-  
 
 <h2 class="section-heading">The Paradox of Choice</h2>
 <br>
+
 
 <div align = 'center'>  
     <a href="#">
@@ -54,13 +44,14 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
 <p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu, HBO Now and many more on demand streaming services. But have you ever spent an entire night just browsing through the options and unable to land on anything? And the site algorithm keeps giving you terrible recommendations?
 <br>
 <br>
-This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse!
-For more on this you can check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
+This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse! 
+<br>
+For more on the downsides of too much choice, check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
 <br>
 <br>
-I'm not advocating a less is more approach because we are way past that point. But it never hurts to try and curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. Maybe you also enjoy a classic romcom/bromance like Wedding Crashers but not Blades of Glory - you have standards! You might even like some quirky, off-beat works like The Royal Tenenbaums but definitely not Darjeeling Limited. How does the recommendation engine single out those hidden gems for you?
+I'm not advocating a less is more approach because we are way past that point. But it never hurts to try and curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. 
 </p>
 <div align = 'center'>  
     <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/white.jpg">Good vs. Bad Recommendations</a>
+      <img src="{{ site.baseurl }}/img/project-6/goodbad.jpg"></a>
 </div>
