@@ -113,7 +113,7 @@ header-img: "img/project-6/blackimdb.jpg"
 <p>There were 38 missing revenue values in the dataset and I decided to run a linear regression using the subset of data with film revenue to predict and fill in the missing revenue. Unfortunately, the model score of 0.611 was too low to use for predicting missing revenue numbers.  
 </p>
 
-<p>On the bright side, it turns out that gross revenue is not particularly correlated with rating at all! Of course I hadn't adjusted for inflation and as the oldest film in the dataset was from 1921 (The Kid) and the newest from 2016 (Zootopia, Deadpool), this may severly skew the data. 
+<p>On the bright side, it turns out that gross revenue is not very highly correlated with rating at all! Of course I hadn't adjusted for inflation and as the oldest film in the dataset was from 1921 (The Kid) and the newest from 2016 (Zootopia, Deadpool), this may severly skew the data. 
 </p>
 
 <div>
@@ -126,12 +126,19 @@ header-img: "img/project-6/blackimdb.jpg"
 
 <p>The most interesting observations on the data come from plotting the release year for a film vs. other features. The more recent a film, the more imdb votes it received and the more varied the ratings. The older a film, the fewer votes it received but the higher the ratings. 
 </p>
-<p><b>What does this tell us? </b>
-  Just because a film is highly rated (high ratings) does not mean it is necessarily popular (low number of ratings). Already we see a vulnerability in creating a better algorithm just by examining the top user-rated films.
+
+<p><b>What does this tell us? </b></p>
+<p>Just because a film is highly rated (high ratings) does not mean it is necessarily popular (low number of ratings). Already we see a vulnerability in creating a better recommendation algorithm just by examining the top user-rated films.
 </p>
 
 <div>
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-6/year_regplots2.png"></a>
 </div>
+
+<p><b>How do we get to gross revenue?</b></p>
+<p>We still need a way to derive gross revenue. I didn't want to just fill in all missing data with the median value. Instead I created the correlation index, the correlation (0.54) between gross revenue and tomatoFresh score, as these this was the most highly correlated with gross revenue. Then I applied this index to actual gross revenue for data with a revenue value and to the median for data with revenue missing. This way the revenue numbers would be tempered by the correlation index and maybe less noisy than if I had just used median to fill in missing values.
+</p>
+<blockquote> Adjusted Gross = Gross Revenue * Correlation Index </blockquote>
+<blockquote> Adjusted Gross = Median Revenue * Correlation Index </blockquote>
 
