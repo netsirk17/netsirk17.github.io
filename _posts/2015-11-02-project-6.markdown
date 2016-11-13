@@ -127,11 +127,11 @@ header-img: "img/project-6/blackimdb.jpg"
 <p>The most interesting observations on the data come from plotting the release year for a film vs. other features. The more recent a film, the more imdb votes it received and the more varied the ratings. The older a film, the fewer votes it received but the higher the ratings. 
 </p>
 <p><b>What does this tell us? </b>
-  Just because a film is highly rated (high ratings) does not mean it is necessarily popular (low number of ratings)
+  Just because a film is highly rated (high ratings) does not mean it is necessarily popular (low number of ratings). Already we see a vulnerability in creating a better algorithm just by examining the top user-rated films.
 </p>
 
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/gross_regplots2.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/year_regplots2.png"></a>
 </div>
 
