@@ -14,9 +14,9 @@ header-img: "img/project-6/blackimdb.jpg"
   <p> The goal of the project was to examine what factors contribute to movie ratings in order to predict what types of movies a person may like. I used tree-based machine learning models on the top 250 films as rated by IMDB users to identify movie feature importance in determining user ratings. 
   </p>
 
-  <p>Project Details:
+  <p><b>Project Details</b>:
   <ol>
-    <li> Webscrape top-rated films and film information on IMDB and through OMDB API </li>
+    <li> Webscrape information on top-rated films on IMDB and through OMDB API </li>
     <li> Create regression and classification models (decision trees and random forests) to determine most important movie features in predicting user ratings </li>
     <li>Cross validate model scores</li>
     <li>Models used:</li>

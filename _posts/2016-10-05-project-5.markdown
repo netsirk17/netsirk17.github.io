@@ -14,7 +14,7 @@ header-img: "img/project-5/titanic-sinking.jpg"
   <p> The goal of the project was to predict the chances of any one passenger surviving the Titanic sinking of 1912, using various classification models to come to the best predictions. The best model turned out to be a cross-validated logistic regression model  with 82.6% accuracy, 80.0% precision and a 12.9% false positive rate. This model was built with LogisticRegressionCV from scikitlearn's linear_model module. 
   </p>
 
-  <p>Project Details:
+  <p><b>Project Details</b>:
   <ol>
     <li> Acquire data from AWL PostgreSQL database </li>
     <li> Create classification models to predict likelihood of survival. I built the following models: </li>
