@@ -73,9 +73,10 @@ Now I'm not advocating a less is more approach because we are way past that poin
 Unfortunately more than half of the opening weekend numbers were missing so I couldn't use it as a feature. Also 38 budget values were missing and with no easy way to impute that data, I decided to exclude budget as well. 
 </p>
 
-<h2 class="section-heading">Metascore</h2>
+<h2 class="section-heading">Missing Values, Always Fun! </h2>
 <br>
-
+<h4>Metascore</h4>
+<br>
 <p>
   <b>Quick definition of various film scoring metrics:</b>
   <ul>
@@ -98,9 +99,9 @@ Unfortunately more than half of the opening weekend numbers were missing so I co
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap.png"></a>
 </div>
+<br>
 
-
-<h2 class="section-heading">Film Gross Revenue</h2>
+<h4>Gross Revenue</h4>
 <br>
 
 <p>
