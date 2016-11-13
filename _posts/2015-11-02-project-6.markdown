@@ -53,5 +53,7 @@ I'm not advocating a less is more approach because we are way past that point. B
 </p>
 <div align = 'center'>  
     <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/goodbad.jpg"></a>
+      <img src="{{ site.baseurl }}/img/project-6/recommendations.jpg"></a>
 </div>
+
+
