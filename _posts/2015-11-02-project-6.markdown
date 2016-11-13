@@ -194,6 +194,10 @@ Lord of the Rings = top rating.
 <br>
 <p>I trained and tested tree-based models to determine feature importance for ratings. Model performance was evaluated by examinging cross-val scores.
 </p>
+
+<p>Regressor and classifier models were both used. The float value of imdb Ratings (from 0-10) were used as the target variable for regressors and three classification bins (average, good, excellent) were used for classifiers.
+  
+</p>
 <p> <b>Target: imdb Rating</b>
 </p>
 <p> <b>Features: </b> 
@@ -208,5 +212,19 @@ Lord of the Rings = top rating.
 </ul>
 </p>
 
-<p>Note: Although the number
+<p>Note: Although the number of votes cast on imdb was the most highly correlated to imdbRating, I decided not to include this feature in the models for two reasons:
+<ol>
+  <li>Number of votes cast is not an inherent feature of a film</li>
+  <li>A recommendation algorithm on any given platform would not initially have number of ratings available as a feature</li>
+</ol>
+</p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/imdb_corr.png"></a>
+</div>
+
+<h3>Best Performing Models</h3>
+<p> GridSearchCV DecisionTree Regressor performed the best overall, with a cross-validated R2 score of 1.0. 
+  
 </p>
