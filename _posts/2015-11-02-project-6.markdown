@@ -75,8 +75,7 @@ Unfortunately more than half of the opening weekend numbers were missing so I co
 
 <h2 class="section-heading">Missing Values, Always Fun! </h2>
 <br>
-<h4>Metascore</h4>
-<br>
+<h3>Metascore</h3>
 <p>
   <b>Quick definition of various film scoring metrics:</b>
   <ul>
@@ -95,14 +94,14 @@ Unfortunately more than half of the opening weekend numbers were missing so I co
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/score_df_heatmap.png"></a>
 </div>
+<br>
 <div>
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap.png"></a>
 </div>
 <br>
 
-<h4>Gross Revenue</h4>
-<br>
+<h3>Gross Revenue</h3>
 
 <p>
 </p>
