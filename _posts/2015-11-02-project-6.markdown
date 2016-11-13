@@ -11,12 +11,14 @@ header-img: "img/project-6/blackimdb.jpg"
 <h2 class="section-heading">Executive Summary</h2>
 
   <p><b> Dataset: <a href="http://www.imdb.com/chart/top" target="_blank"> IMDB Top 250 Films of All Time </a> </b></p>
-  <p> The goal of the project was to examine what factors contribute to movie ratings in order to predict what types of movies a person may like. I used tree-based machine learning models on the top 250 films as rated by IMDB users to identify movie feature importance in determining user ratings. 
+  <p> The goal of the project was to examine what factors contribute to movie ratings. I used tree-based machine learning models to identify movie feature importance in determining user ratings for the top 250 films as rated by IMDB users. 
   </p>
 
   <p><b>Project Details</b>:
   <ol>
-    <li> Webscrape information on top-rated films on IMDB and through OMDB API </li>
+    <li> Use the OMDB API to get information on top-rated films on IMDB </li>
+    <li> Webscrape additional information directly from IMDB (gross revenue, opening weekend revenue, film budget) </li>
+    <li> Use CountVectorizer to perform Natural Language Processing on key words (plot, title, actors, directors, etc) </li>
     <li> Create regression and classification models (decision trees and random forests) to determine most important movie features in predicting user ratings </li>
     <li>Cross validate model scores</li>
     <li>Models used:</li>
@@ -47,11 +49,58 @@ header-img: "img/project-6/blackimdb.jpg"
 This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." For more on the downsides of too much choice, check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
 <br>
 <br>
-I'm not advocating a less is more approach because we are way past that point. But it never hurts better curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. But how can an algorithm recognize the gems without also suggesting irrelevent duds?
+Now I'm not advocating a less is more approach because we are way past that point. But it never hurts better to try and create a better algorithm. One that curates content better and matches a user's idiosyncratic tastes. One that essentially limits the choices down to the very best ones. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. 
 </p>
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/recommendations.jpg"></a>
 </div>
 
+<p>But how can an algorithm recognize the gems without also suggesting irrelevent duds? One way to approach this problem would be to look at the most highly-rated films and investigate what about these films make them so popular and well-regarded. 
+</p>
+
+
+<h2 class="section-heading">Webscraping</h2>
+<br>
+
+<p>Thank you Beautiful Soup for making webscraping in python so efficient! Here's a snippet of code that takes a list of IMDB film IDs and returns information on those films through an api call on omdbapi.com. 
+</p>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-6/omdbapi.png"></a>
+</div>
+<p>I took the output from the api call and scraped the gross revenue, opening weekend revenue and budget information directly from IMDB to get my final dataset. <br>
+Unfortunately more than half of the opening weekend numbers were missing so I couldn't use it as a feature. Also 38 budget values were missing and with no easy way to impute that data, I decided to exclude budget as a feature as well. 
+</p>
+
+<h2 class="section-heading">Metascore</h2>
+<br>
+
+<p>
+  <b>Quick definition of various film scoring metrics:</b>
+  <ul>
+    <li>Metascore: Score based on weighted ratings from professional film critics (weighting based on a critic's fame); from metacritic.com </li>
+    <li>tomatoMeter: Score that represents the percentage of positive professional critic reviews; from rottentomatoes.com </li>
+    <li>tomatoRating:  Score derived from tomatoMeter. </li>
+  </ul>
+</p>
+<p>There were 84 Metascore values missing out of 250 total samples, about 33% of the data! I believed that Metascore was an important metric for film ratings but obviously not useful with so much of the data missing. 
+</p>
+
+<p>Luckily when I checked the correlation of Metascore against two similar film scoring metrics, tomatoMeter and tomatoRating, the correlation was high enough that I could use the latter two scores in place of Metascore. There were several other film rating metrics available in the dataset, but tomatoMeter and tomatoRating were the most correlated and therefore the best proxies.
+</p>
+
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-6/score_df_heatmap.png"></a>
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap.png"></a>
+</div>
+
+
+<h2 class="section-heading">Film Gross Revenue</h2>
+<br>
+
+<p>
+</p>
 
