@@ -70,7 +70,7 @@ Now I'm not advocating a less is more approach because we are way past that poin
       <img src="{{ site.baseurl }}/img/project-6/omdbapi.png"></a>
 </div>
 <p>I took the output from the api call and scraped the gross revenue, opening weekend revenue and budget information directly from IMDB to get my final dataset. <br>
-Unfortunately more than half of the opening weekend numbers were missing so I couldn't use it as a feature. Also 38 budget values were missing and with no easy way to impute that data, I decided to exclude budget as a feature as well. 
+Unfortunately more than half of the opening weekend numbers were missing so I couldn't use it as a feature. Also 38 budget values were missing and with no easy way to impute that data, I decided to exclude budget as well. 
 </p>
 
 <h2 class="section-heading">Metascore</h2>
@@ -79,20 +79,22 @@ Unfortunately more than half of the opening weekend numbers were missing so I co
 <p>
   <b>Quick definition of various film scoring metrics:</b>
   <ul>
-    <li>Metascore: Score based on weighted ratings from professional film critics (weighting based on a critic's fame); from metacritic.com </li>
-    <li>tomatoMeter: Score that represents the percentage of positive professional critic reviews; from rottentomatoes.com </li>
-    <li>tomatoRating:  Score derived from tomatoMeter. </li>
+    <li><b>Metascore</b>: Score based on weighted ratings from professional film critics (weighting based on a critic's fame); from metacritic.com </li>
+    <li><b>tomatoMeter</b>: Score that represents the percentage of positive professional critic reviews; from rottentomatoes.com </li>
+    <li><b>tomatoRating</b>:  Score derived from tomatoMeter. </li>
   </ul>
 </p>
-<p>There were 84 Metascore values missing out of 250 total samples, about 33% of the data! I believed that Metascore was an important metric for film ratings but obviously not useful with so much of the data missing. 
+<p>There were 84 Metascore values missing out of 250 total samples, about 33% of the data. I believed that Metascore was an important metric for film ratings but obviously not useful with so much of the data missing. 
 </p>
 
-<p>Luckily when I checked the correlation of Metascore against two similar film scoring metrics, tomatoMeter and tomatoRating, the correlation was high enough that I could use the latter two scores in place of Metascore. There were several other film rating metrics available in the dataset, but tomatoMeter and tomatoRating were the most correlated and therefore the best proxies.
+<p>Luckily when I checked the correlation of Metascore against two similar film scoring metrics, tomatoMeter and tomatoRating, the correlation was high enough that I could use the latter two scores in place of Metascore. There were several other film rating metrics available in the dataset, but tomatoMeter and tomatoRating were the most highly correlated and therefore the best proxies.
 </p>
 
 <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/score_df_heatmap.png"></a>
+</div>
+<div>
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap.png"></a>
 </div>
