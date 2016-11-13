@@ -44,12 +44,10 @@ header-img: "img/project-6/blackimdb.jpg"
 <p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu, HBO Now and many more on demand streaming services. But have you ever spent an entire night just browsing through the options and unable to land on anything? And the site algorithm keeps giving you terrible recommendations?
 <br>
 <br>
-This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse! 
-<br>
-For more on the downsides of too much choice, check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
+This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." For more on the downsides of too much choice, check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
 <br>
 <br>
-I'm not advocating a less is more approach because we are way past that point. But it never hurts to try and curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. 
+I'm not advocating a less is more approach because we are way past that point. But it never hurts better curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. But how can an algorithm recognize the gems without also suggesting irrelevent duds?
 </p>
 <div align = 'center'>  
     <a href="#">
