@@ -92,12 +92,12 @@ Unfortunately more than half of the opening weekend numbers were missing so I co
 
 <div align = 'center'>  
     <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/score_df_heatmap.png"></a>
+      <img src="{{ site.baseurl }}/img/project-6/score_df_heatmap2.png"></a>
 </div>
 <br>
 <div>
     <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap.png"></a>
+      <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap2.png"></a>
 </div>
 <br>
 
