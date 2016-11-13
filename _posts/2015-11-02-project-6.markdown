@@ -47,11 +47,11 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
 
 <div align = 'center'>  
     <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/streaming.jpg"></a>
+      <img src="{{ site.baseurl }}/img/project-6/streaming2.jpg"></a>
 </div>
 <br>
 
-<p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu and many more on demand streaming services. But have you ever spent an entire night just browsing through the options and unable to land on anything? And the site algorithm keeps giving you terrible recommendations?
+<p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu, HBO Now and many more on demand streaming services. But have you ever spent an entire night just browsing through the options and unable to land on anything? And the site algorithm keeps giving you terrible recommendations?
 <br>
 <br>
 This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse!
