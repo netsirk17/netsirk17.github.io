@@ -124,8 +124,10 @@ header-img: "img/project-6/blackimdb.jpg"
 <p>However, even if I had adjusted for inflation there would still be some incongruence in comparability as the distribution and availability of movies is much greater now than ever. A more apples to apples comparison may be to just examine top rated films from the past 10-20 years. 
 </p>
 
-<p>The most interesting observations on the data come from plotting the release year for a film vs. other features. The more recent a film, the more imdb votes it received. 
-  
+<p>The most interesting observations on the data come from plotting the release year for a film vs. other features. The more recent a film, the more imdb votes it received and the more varied the ratings. The older a film, the fewer votes it received but the higher the ratings. 
+</p>
+<p><b>What does this tell us? </b>
+  Just because a film is highly rated (high ratings) does not mean it is necessarily popular (low number of ratings)
 </p>
 
 <div>
