@@ -142,3 +142,47 @@ header-img: "img/project-6/blackimdb.jpg"
 <blockquote> Adjusted Gross = Gross Revenue * Correlation Index </blockquote>
 <blockquote> Adjusted Gross = Median Revenue * Correlation Index </blockquote>
 
+<h2 class="section-heading">Natural Language Processing</h2>
+<br>
+<p>I extracted down key words from language-related features using sklearn's CountVectorizer. I wanted to see which actors, directors, plot and title key-words, genres and production companies most affect ratings. Are some Hollywood A-listers worth the huge cost of their contracts? Are some genres more inclined to higher ratings than others? 
+</p>
+
+<p>I limited the key words to the top 25 in each category as I did not want too many features to flow into a model with a very small number of samples.
+</p>
+
+<h3>Actors</h3>
+<p><b>Key takeaway</b>:
+<br>
+Have men in your film.
+</p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/topactors.png"></a>
+</div>
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/topactors_first.png"></a>
+</div>
+
+<h3>Plot Key Words</h3>
+<p><b>Key takeaway</b>:
+<br>
+War or policing movies involving a young father in a new world looks like a winning recipe.
+</p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/topplot.png"></a>
+</div>
+
+<h3>Title Key Words</h3>
+<p><b>Key takeaway</b>:
+<br>
+You can really see the data distortion from having such a small sample size. Star Wars = top rating.
+</p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/toptitle.png"></a>
+</div>
