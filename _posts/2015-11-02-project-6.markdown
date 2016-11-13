@@ -168,7 +168,7 @@ Have men in your film.
 <h3>Plot Key Words</h3>
 <p><b>Key takeaway</b>:
 <br>
-War or policing movies involving a young father in a new world looks like a winning recipe.
+War or police-related movies involving a young father in a new world looks like a winning recipe.
 </p>
 
 <div>
@@ -179,10 +179,34 @@ War or policing movies involving a young father in a new world looks like a winn
 <h3>Title Key Words</h3>
 <p><b>Key takeaway</b>:
 <br>
-You can really see the data distortion from having such a small sample size. Star Wars = top rating.
+You can really see the data distortion from having such a small sample size.
+<br>
+Star Wars = top rating.
+Lord of the Rings = top rating.
 </p>
 
 <div>
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-6/toptitle.png"></a>
 </div>
+
+<h2 class="section-heading">Tree-Based Modeling</h2>
+<br>
+<p>I trained and tested tree-based models to determine feature importance for ratings. Model performance was evaluated by examinging cross-val scores.
+</p>
+<p> <b>Target: imdb Rating</b>
+</p>
+<p> <b>Features: </b> 
+<ul>
+  <li>Adjusted gross revenue</li>
+  <li>Professional film ratings: tomatoMeter, tomatoRating, etc</li>
+  <li>User film ratings: tomatoUserMeter, tomatoUserRating, etc</li>
+  <li>Awards: Oscar wins and nominations; other award wins and noms</li>
+  <li>Other film features: Runtime, rating, release date </li>
+  <li>NLP features: actors, directors, plot, title, genre, production company</li>
+  <li></li>
+</ul>
+</p>
+
+<p>Note: Although the number
+</p>
