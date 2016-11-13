@@ -51,11 +51,16 @@ Point: Your boss isn't sure where to start on this project, so your task is to c
 </div>
 <br>
 
-<p> Remember when going to Blockbuster seemed like you had an endless choice of movies? Well now we actually have nearly limitless choice with Netflix, Amazon Prime, Hulu and everything else on demand.
+<p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu and everything else on demand. But have you ever spent an entire night just browsing through the options and unable to land on anything? And Netflix keeps giving you terrible recommendations?
+<br>
+<br>
+This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse!
+For more on this you can check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
+<br>
+<br>
+I'm not advocating a less is more approach because we are way past that point. But it never hurts to try and curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. Maybe you also enjoy a classic romcom/bromance like Wedding Crashers but not Blades of Glory - you have standards! You might even like some quirky, off-beat works like The Royal Tenenbaums but definitely not Darjeeling Limited. How does the recommendation engine single out those hidden gems for you?
 </p>
-
-<p> But have you ever spent an entire night just browsing through the choices and unable to land on anything? And Netflix keeps giving you terrible recommendations? <br> 
-  This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." In all fairness, if all you're doing is browsing and not watching, you're essentially paying Netflix for the privelege to browse! <br>
-  For more on this you can check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. <br>
-  I'm not advocating a less is more approach because we are way past that point. But it never hurts to try and better curate to everyone's idiosyncratic tastes. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violent movies with incessent yet indelible dialogue. 
-</p>
+<div align = 'center'>  
+    <a href="#">
+      <img src="{{ site.baseurl }}/img/project-6/white.jpg">Good vs. Bad Recommendations</a>
+</div>
