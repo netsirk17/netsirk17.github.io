@@ -36,46 +36,50 @@ header-img: "img/project-6/blackimdb.jpg"
 <h2 class="section-heading">The Paradox of Choice</h2>
 <br>
 
+    <div align = 'center'>  
+        <a href="#">
+          <img src="{{ site.baseurl }}/img/project-6/streaming2.jpg"></a>
+    </div>
+    <br>
 
-<div align = 'center'>  
-    <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/streaming2.jpg"></a>
-</div>
-<br>
+  <p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu, HBO Now and many more on demand streaming services. But have you ever spent an entire night just browsing through the options and unable to land on anything? And the site algorithm keeps giving you terrible recommendations?
+  <br>
+  <br>
+  This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." For more on the downsides of too much choice, check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
+  <br>
+  <br>
+  Now I'm not advocating a less is more approach because we are way past that point. But it never hurts better to try and create a better algorithm. One that curates content better and matches a user's idiosyncratic tastes. One that essentially limits the choices down to the very best ones. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. 
+  </p>
 
-<p> We have nearly endless choice in movies with Netflix, Amazon Prime, Hulu, HBO Now and many more on demand streaming services. But have you ever spent an entire night just browsing through the options and unable to land on anything? And the site algorithm keeps giving you terrible recommendations?
-<br>
-<br>
-This is such a common phenomenon that even The Onion riffed on it with their segment <a href="http://www.theonion.com/video/netflix-introduces-new-browse-endlessly-plan-35308" target="_blank">"Netflix Introduces New 'Browse Endlessly' Plan"</a>. The report says, "the inexpensive new plan lets users just browse all the titles and posters they want for just five dollars a month." For more on the downsides of too much choice, check out Barry Schwartz's <a href="https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice" target="_blank">TED Talk</a>. 
-<br>
-<br>
-Now I'm not advocating a less is more approach because we are way past that point. But it never hurts better to try and create a better algorithm. One that curates content better and matches a user's idiosyncratic tastes. One that essentially limits the choices down to the very best ones. Just because you love Tarantino's films doesn't mean you will like all kinds of blood-soaked violence intermixed with incessent yet indelible dialogue. 
-</p>
-<div align = 'center'>  
+    <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/recommendations.jpg"></a>
-</div>
+    </div>
 
-<p>But how can an algorithm recognize the gems without also suggesting irrelevent duds? One way to approach this problem would be to look at the most highly-rated films and investigate what about these films make them so popular and well-regarded. 
-</p>
+  <p>But how can an algorithm recognize the gems without also suggesting irrelevent duds? One way to approach this problem would be to look at the most highly-rated films and investigate what about these films make them so popular and well-regarded. 
+  </p>
 
 
 <h2 class="section-heading">Webscraping</h2>
 <br>
 
-<p>Thank you Beautiful Soup for making webscraping in python so efficient! Here's a snippet of code that takes a list of IMDB film IDs and returns information on those films through an api call on omdbapi.com. 
-</p>
+  <p>Thank you Beautiful Soup for making webscraping in python so efficient! Here's a snippet of code that takes a list of IMDB film IDs and returns information on those films through an api call on omdbapi.com. 
+  </p>
+
 <div align = 'center'>  
-    <a href="#">
-      <img src="{{ site.baseurl }}/img/project-6/omdbapi.png"></a>
-</div>
-<p>I took the output from the api call and scraped the gross revenue, opening weekend revenue and budget information directly from IMDB to get my final dataset. <br>
-Unfortunately more than half of the opening weekend numbers were missing so I couldn't use it as a feature. Also 38 budget values were missing and with no easy way to impute that data, I decided to exclude budget as well. 
-</p>
+      <a href="#">
+        <img src="{{ site.baseurl }}/img/project-6/omdbapi.png"></a>
+    </div>
+    
+  <p>I took the output from the api call and scraped the gross revenue, opening weekend revenue and budget information directly from IMDB to get my final dataset. 
+  <br>
+  Unfortunately more than half of the opening weekend numbers were missing so I couldn't use it as a feature. Also 38 budget values were missing and with no easy way to impute that data, I decided to exclude budget as well. 
+  </p>
 
 <h2 class="section-heading">Missing Values, Always Fun! </h2>
 <br>
 <h3>Metascore</h3>
+
 <p>
   <b>Quick definition of various film scoring metrics:</b>
   <ul>
@@ -84,25 +88,48 @@ Unfortunately more than half of the opening weekend numbers were missing so I co
     <li><b>tomatoRating</b>:  Score derived from tomatoMeter. </li>
   </ul>
 </p>
+
 <p>There were 84 Metascore values missing out of 250 total samples, about 33% of the data. I believed that Metascore was an important metric for film ratings but obviously not useful with so much of the data missing. 
 </p>
 
 <p>Luckily when I checked the correlation of Metascore against two similar film scoring metrics, tomatoMeter and tomatoRating, the correlation was high enough that I could use the latter two scores in place of Metascore. There were several other film rating metrics available in the dataset, but tomatoMeter and tomatoRating were the most highly correlated and therefore the best proxies.
 </p>
 
-<div align = 'center'>  
+  <div align = 'center'>  
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/score_df_heatmap.png"></a>
-</div>
+  </div>
 <br>
-<div>
+  <div>
     <a href="#">
       <img src="{{ site.baseurl }}/img/project-6/metascore_heatmap2.png"></a>
-</div>
-<br>
+  </div>
 
 <h3>Gross Revenue</h3>
 
-<p>
+<p>I also believed that the gross revenue of a film would be a great predictor of film ratings. The thought process was that the more money a film made, the more people went to see it and thus the more popular it was. The more popular a film, the more likely that it would be rated in the first place and it would be rated highly.
 </p>
+
+<p>There were 38 missing revenue values in the dataset and I decided to run a linear regression using the subset of data with film revenue to predict and fill in the missing revenue. Unfortunately, the model score of 0.611 was too low to use for predicting missing revenue numbers.  
+</p>
+
+<p>On the bright side, it turns out that gross revenue is not particularly correlated with rating at all! Of course I hadn't adjusted for inflation and as the oldest film in the dataset was from 1921 (The Kid) and the newest from 2016 (Zootopia, Deadpool), this may severly skew the data. 
+</p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/gross_regplots2.png"></a>
+</div>
+
+<p>However, even if I had adjusted for inflation there would still be some incongruence in comparability as the distribution and availability of movies is much greater now than ever. A more apples to apples comparison may be to just examine top rated films from the past 10-20 years. 
+</p>
+
+<p>The most interesting observations on the data come from plotting the release year for a film vs. other features. The more recent a film, the more imdb votes it received. 
+  
+</p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/gross_regplots2.png"></a>
+</div>
 
