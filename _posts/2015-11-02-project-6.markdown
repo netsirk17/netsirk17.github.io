@@ -207,7 +207,7 @@ Lord of the Rings = top rating.
   <li>Professional film ratings: tomatoMeter, tomatoRating, etc</li>
   <li>User film ratings: tomatoUserMeter, tomatoUserRating, etc</li>
   <li>Awards: Oscar wins and nominations; other award wins and noms</li>
-  <li>Other film features: Runtime, rating, release date </li>
+  <li>Other film features: runtime, rating, release date </li>
   <li>NLP features: actors, directors, plot, title, genre, production company</li>
 </ul>
 </p>
@@ -230,7 +230,7 @@ Lord of the Rings = top rating.
 
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/topreg.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/topreg_horizontal.png"></a>
 </div>
 
 <p> One reason for such high scores, even when cross-validated, may be that the range of imdb Ratings for the test data was very narrow - 8.0 and 10.0.
