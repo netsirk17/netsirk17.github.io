@@ -113,7 +113,7 @@ header-img: "img/project-6/blackimdb.jpg"
 <p>There were 38 missing revenue values in the dataset and I decided to run a linear regression using the subset of data with film revenue to predict and fill in the missing revenue. Unfortunately, the model score of 0.611 was too low to use for predicting missing revenue numbers.  
 </p>
 
-<p>On the bright side, it turns out that gross revenue is not very highly correlated with rating at all! Of course I hadn't adjusted for inflation and as the oldest film in the dataset was from 1921 (The Kid) and the newest from 2016 (Zootopia, Deadpool), this may severly skew the data. 
+<p>On the bright side, it turns out that gross revenue is not very highly correlated with rating at all! Of course I hadn't adjusted for inflation and as the oldest film in the dataset was from 1921 (The Kid) and the newest from 2016 (Zootopia, Deadpool), this may severely skew the data. 
 </p>
 
 <div>
@@ -137,7 +137,7 @@ header-img: "img/project-6/blackimdb.jpg"
 </div>
 
 <p><b>How do we get to gross revenue?</b></p>
-<p>We still need a way to derive gross revenue. I didn't want to just fill in all missing data with the median value. Instead I created the correlation index, the correlation (0.54) between gross revenue and tomatoFresh score, as these this was the most highly correlated with gross revenue. Then I applied this index to actual gross revenue for data with a revenue value and to the median for data with revenue missing. This way the revenue numbers would be tempered by the correlation index and maybe less noisy than if I had just used median to fill in missing values.
+<p>We still need a way to derive gross revenue. I didn't want to just fill in all missing data with the median value. Instead I created the correlation index, the correlation (0.54) between gross revenue and tomatoFresh score, as these this was the most highly correlated with gross revenue. Then I applied this index to actual gross revenue for data with a revenue value and to the median for data with revenue missing. This way the revenue numbers would be tempered by the correlation index and maybe less distorted than if I had just used median to fill in missing values.
 </p>
 <blockquote> Adjusted Gross = Gross Revenue * Correlation Index </blockquote>
 <blockquote> Adjusted Gross = Median Revenue * Correlation Index </blockquote>
@@ -155,6 +155,11 @@ header-img: "img/project-6/blackimdb.jpg"
 <br>
 Have men in your film. Even though we all know that Meryl Streep is the best actor around, at least according to Michael Scott. 
 </p>
+
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/streep.jpg"></a>
+</div>
 
 <div>
   <a href="#">
@@ -244,7 +249,7 @@ Lord of the Rings = top rating.
 
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/topreg_barh.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/topregfeatures.png"></a>
 </div>
 
 <h3>Best Performing Classifier Models</h3>
@@ -253,5 +258,5 @@ Lord of the Rings = top rating.
 
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/topclass.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/topclassfeatures.png"></a>
 </div>
