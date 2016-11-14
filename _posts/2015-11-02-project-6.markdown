@@ -258,6 +258,9 @@ Lord of the Rings = top rating.
 <p> It seems that the classifier models were not as clear cut as the regressors. When looking at feature importance, there is a greater range of features used in making predictions and the highest feature importance across all classifiers was about 22% vs. about 45% for some regressor models.
 </p>
 
+<p> The classifier models also have user-generated ratings and reviews as key features, but also includes Year, Adj. Gross and Runtime. This is more in line with what I would expect, especially from a more generalized dataset.
+</p>
+
 <div>
   <a href="#">
     <img src="{{ site.baseurl }}/img/project-6/topclassfeatures.png"></a>
@@ -272,7 +275,7 @@ Lord of the Rings = top rating.
 
 <h2 class="section-heading">Conclusion</h2>
 <br>
-<p> Both the regressor and classifier models did well, with the regressor tree-based models having incredibly high  scores. However we used a very small dataset of only 250 samples and these samples were highly skewed toward already popular and highly-rated films. Taking this into consideration, the classifier models should have done better!
+<p> Both the regressor and classifier models did well, with the regressor tree-based models having incredibly high scores. However we used a very small dataset of only 250 samples and these samples were highly skewed toward already popular and highly-rated films. Taking this into consideration, the classifier models should have done better!
 </p>
 <p> The logical next step would be to go back and scrape a more comprehensive list of films so that our models can generalize better and maybe limit the release year to the last 20 years. The nature of the movie business has evolved too much over the past 90 years to have a clear apples to apples comparison of films across eras. Also we could get a better comparison of gross revenue, which I still believe can play an important role in recommendation algorithms.
 </p>
