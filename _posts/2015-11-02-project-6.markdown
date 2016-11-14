@@ -153,13 +153,7 @@ header-img: "img/project-6/blackimdb.jpg"
 <h3>Actors</h3>
 <p><b>Key takeaway</b>:
 <br>
-Have men in your film. Even though we all know that Meryl Streep is the best actor around, at least according to Michael Scott. 
-</p>
-
-<div>
-  <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/streep.jpg"></a>
-</div>
+Have men in your film.
 
 <div>
   <a href="#">
@@ -273,10 +267,14 @@ Lord of the Rings = top rating.
 </p>
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/confusionmatrix.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/confusionmatrix_df.png"></a>
 </div>
 
 <h2 class="section-heading">Conclusion</h2>
 <br>
-<p> Both the regressor and classifier models did well. 
+<p> Both the regressor and classifier models did well, with the regressor tree-based models having incredibly high  scores. However we used a very small dataset of only 250 samples and these samples were highly skewed toward already popular and highly-rated films. Taking this into consideration, the classifier models should have done better!
+</p>
+<p> The logical next step would be to go back and scrape a more comprehensive list of films so that our models can generalize better and maybe limit the release year to the last 20 years. The nature of the movie business has evolved too much over the past 90 years to have a clear apples to apples comparison of films across eras. Also we could get a better comparison of gross revenue, which I still believe can play an important role in recommendation algorithms.
+</p>
+<p> Finally I wonder if we could substitute Rotten Tomatoes user-generated ratings, which are very much in line with imdb ratings, with other features. I don't want to use ratings from one platform to predict ratings on another platform. I want to use inherent features in a movie. Perhaps we can add special effects and other technical aspects of a movie, more about film distribution (domestic, interational, number of theaters) and more detailed breakdown of current features. For example actors can be further broken down by lead or supporting actors. Stay tuned, I may decide to further tune my modeling and analysis!
 </p>
