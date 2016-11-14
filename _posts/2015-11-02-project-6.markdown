@@ -230,7 +230,7 @@ Lord of the Rings = top rating.
 
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/topreg_horizontal.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/topreg_barh.png"></a>
 </div>
 
 <p> One reason for such high scores, even when cross-validated, may be that the range of imdb Ratings for the test data was very narrow - 8.0 and 10.0.
