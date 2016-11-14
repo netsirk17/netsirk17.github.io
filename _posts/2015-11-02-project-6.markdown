@@ -258,5 +258,25 @@ Lord of the Rings = top rating.
 
 <div>
   <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/topclass.png"></a>
+</div>
+
+<p> It seems that the classifier models were not as clear cut as the regressors. When looking at feature importance, there is a greater range of features used in making predictions and the highest feature importance across all classifiers was about 22% vs. about 45% for some regressor models.
+</p>
+
+<div>
+  <a href="#">
     <img src="{{ site.baseurl }}/img/project-6/topclassfeatures.png"></a>
 </div>
+
+<p> Below is the confusion matrix for the best performing classifier, the GridSearchCV GradientBoosting Classifier.
+</p>
+<div>
+  <a href="#">
+    <img src="{{ site.baseurl }}/img/project-6/confusionmatrix.png"></a>
+</div>
+
+<h2 class="section-heading">Conclusion</h2>
+<br>
+<p> Both the regressor and classifier models did well. 
+</p>
