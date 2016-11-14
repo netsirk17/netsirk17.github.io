@@ -224,7 +224,7 @@ Lord of the Rings = top rating.
     <img src="{{ site.baseurl }}/img/project-6/imdb_corr.png"></a>
 </div>
 
-<h3>Best Performing Models</h3>
+<h3>Best Performing Regressor Models</h3>
 <p> GridSearchCV DecisionTree Regressor performed the best overall, with a cross-validated MSE score of 1.0 followed by GridSearchCV RandomForest Regressor with a 0.78 MSE. 
 </p>
 
@@ -247,8 +247,11 @@ Lord of the Rings = top rating.
     <img src="{{ site.baseurl }}/img/project-6/topregfeatures.png"></a>
 </div>
 
-<b>Regressor Tree Models</b>
+<h3>Best Performing Classifier Models</h3>
+<p> GridSearchCV GradientBoosting Classifier performed the best with an accuracy score of 0.63 followed closely by both the standard GradientBoosting Classifier and DecisionTree Classifier with accuracy scores of 0.604 and 0.600 respectively.
+</p>
+
 <div>
   <a href="#">
-    <img src="{{ site.baseurl }}/img/project-6/toptrees.png"></a>
+    <img src="{{ site.baseurl }}/img/project-6/topclass.png"></a>
 </div>
